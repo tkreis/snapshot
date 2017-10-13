@@ -1,0 +1,26 @@
+{
+  "name": "snapshot",
+  "version": "0.0.1",
+  "description": "Primitive way to add snapshot testing to elm-test.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha tests/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tkreis/snapshot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tkreis/snapshot/issues"
+  },
+  "homepage": "https://github.com/tkreis/snapshot#readme",
+  "devDependencies": {
+    "mocha": "^4.0.1",
+    "sinon": "^4.0.1"
+  }
+}
